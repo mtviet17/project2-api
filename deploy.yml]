@@ -1,0 +1,9 @@
+Running 'docker build -t project2registry/project2newfunctionapp:latest /Users/VietMT/Documents/AZ/nd081-c2-Building-and-deploying-cloud-native-applications-from-scratch-project-starter/NeighborlyAPI'...done
+secret/project2newfunctionapp unchanged
+secret/func-keys-kube-secret-project2newfunctionapp configured
+serviceaccount/project2newfunctionapp-function-keys-identity-svc-act unchanged
+role.rbac.authorization.k8s.io/functions-keys-manager-role unchanged
+rolebinding.rbac.authorization.k8s.io/project2newfunctionapp-function-keys-identity-svc-act-functions-keys-manager-rolebinding unchanged
+service/project2newfunctionapp-http unchanged
+deployment.apps/project2newfunctionapp-http configured
+deployment.apps/project2newfunctionapp configured
