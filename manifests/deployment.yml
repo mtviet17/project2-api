@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "newcluster-0ca3"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "newcluster-0ca3"
+  template:
+    metadata:
+      labels:
+        app: "newcluster-0ca3"
+    spec:
+      containers:
+        - name: "newcluster-0ca3"
+          image: "project2registry.azurecr.io/newcluster"
+          ports:
+          - containerPort: 80
